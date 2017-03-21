@@ -2,14 +2,15 @@
 // Don't worry about initialValue at first. You can always add it in later.
 
 function myReduce(arr, callback) {
-	 var total = 0;
-		for (i = 0; i < arr.length; i++) {
-			if (typeof(i) === "string")
-		callback(total += , i, arr);
-	return total;
-}
-}
+	if(typeof(arr[i]) === 'number') {
+		var total = 0;
+		for (i = 0; i < array.length; i++) {
+			callback(total += arr[i]);
+		} else {
 
+		}
+
+	}
 /*
  Best if you don't code out here.
  If you want to check your code, use `index.js`!
